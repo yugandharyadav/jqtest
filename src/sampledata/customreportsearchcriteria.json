@@ -1,0 +1,80 @@
+{
+  "customReportOutPutMetaDataList": [
+    {
+
+      "displayName": "No",
+      "dataType": null,
+      "fieldName": "invoiceNumber",
+      "methodName": null,
+      "optionalProcessingClass": null,
+      "optionalProcessingMethod": null,
+      "aggregateOperators": null,
+      "selectedAggregateOperatorList": [
+        "UNIQUE"
+      ]
+    },
+    {
+      "displayName": "Date",
+      "dataType": null,
+      "fieldName": "invoiceDate",
+      "methodName": null,
+      "optionalProcessingClass": null,
+      "optionalProcessingMethod": null,
+      "aggregateOperators": null,
+      "selectedAggregateOperatorList": [
+        "UNIQUE"
+      ]
+    },
+    {
+      "displayName": "Balance",
+      "dataType": "number",
+      "fieldName": "balance",
+      "methodName": null,
+      "optionalProcessingClass": null,
+      "optionalProcessingMethod": null,
+      "aggregateOperators": null,
+      "selectedAggregateOperatorList": [
+        "UNIQUE"
+      ]
+    },
+    {
+      "displayName": "SimpleKey",
+      "dataType": null,
+      "fieldName": "id",
+      "methodName": null,
+      "optionalProcessingClass": null,
+      "optionalProcessingMethod": null,
+      "aggregateOperators": null,
+      "selectedAggregateOperatorList": [
+        "UNIQUE"
+      ]
+    }
+  ],
+  "customResultList": [
+    [
+      "No",
+      "Date",
+      "Balance",
+      "SimpleKey"
+    ],
+    [
+      "INV-3",
+      "2018.07.14",
+      "17200.0",
+      "5579390150770688:5297915174060032"
+    ],
+    [
+      "INV-2",
+      "2018.08.13",
+      "23096.0",
+      "5509021406593024:5227546429882368"
+    ],
+    [
+      "INV-1",
+      "2018.09.11",
+      "5040.0",
+      "5596982336815104:5878457313525760"
+    ]
+  ],
+  "customResultListSize": 51
+}
