@@ -7,7 +7,16 @@
  -->
 <jqxGrid #myGrid [width]="gridWidth" [autoheight]="true" style="margin-top:10px" [source]="gridDataSource"
  [columns]="gridColumns"  [sortable]="true" [filterable]="true"
-[showstatusbar]="true" [autoshowfiltericon]="true">
+[showstatusbar]="true" [autoshowfiltericon]="true" [showaggregates]="true">
 </jqxGrid>
+<div class="margintop20" class="pull-left">
+  <button *ngIf="showPrev" class="btn btn-sm btn-default" (click)="prev()">
+    <i class="glyphicon glyphicon-step-backward"></i>Prev
+  </button>
+  <button *ngIf="showNext" class="btn btn-sm btn-default" (click)="next()">
+    Next
+    <i class="glyphicon glyphicon-step-forward"></i>
+  </button>
+</div>
 
 
